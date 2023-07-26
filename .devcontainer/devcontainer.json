@@ -1,0 +1,23 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+  },
+  "forwardPorts": [
+	  3000
+  ],
+  "customizations": {
+	  "vscode": {
+		  "settings" : {
+			  "editor.wordWrap": "on",
+			  "editor.fontSize": 16
+		  },
+		  "extensions": [
+			"ms-vscode.live-server",
+			"GitHub.codespaces",
+			"GitHub.vscode-pull-request-github",
+			"tinkertrain.theme-panda",
+			"Tyriar.lorem-ipsum"
+		]
+	  }
+  }
+  }
